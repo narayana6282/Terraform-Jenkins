@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/Bajiramu1/teerdha24.git"
+                            git "git clone https://github.com/Bajiramu1/teerdha24.git"
                         }
                     }
                 }
