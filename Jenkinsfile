@@ -4,8 +4,8 @@ pipeline {
         booleanParam(name: 'autoApprove', defaultValue: false, description: 'Automatically run apply after generating plan?')
     } 
     environment {
-        AWS_ACCESS_KEY_ID     = "AKIA47CRVVEHKTKONGBG"
-        AWS_SECRET_ACCESS_KEY = "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"
+        AWS_ACCESS_KEY_ID     = "AKIAWCYYAFTO22XLCSFS"
+        AWS_SECRET_ACCESS_KEY = "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"
     }
 
    agent  any
@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/Bajiramu1/teerdha24.git"
+                            git "https://github.com/narayana6282/Django-WebApp.git"
                         }
                     }
                 }
